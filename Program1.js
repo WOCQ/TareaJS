@@ -1,0 +1,26 @@
+let number1 = 10;
+let number2 = 20.5;
+let number3 = -15;
+let number4 = 15.2;
+let number5 = -7.89;
+let string1 = "Hola";
+let string2 = "Mundo";
+let string3 = "JavaScript";
+let string4 = "Desarrollo";
+let string5 = "Web";
+let boolean1 = true;
+let boolean2 = false;
+let array1 = [1, 2, 3, 4, 5];
+let array2 = ["a", "b", "c", "d"];
+let array3 = ["uno", "dos", "tres"];
+let object1 = { nombre: "Juan", edad: 25 };
+let object2 = { marca: "Toyota", modelo: "Corolla" };
+let object3 = { ciudad: "Madrid", país: "España" };
+let object4 = { autor: "Cervantes", obra: "Don Quijote" };
+let object5 = { equipo: "Barcelona", posición: "Delantero" };
+
+console.log(number1,number2,number3,number4,number5);
+console.log(string1,string2,string3,string4,string5);
+console.log(boolean1,boolean2);
+console.log(array1,array2,array3);
+console.log(object1,object2,object3,object4,object5);

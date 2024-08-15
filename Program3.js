@@ -1,0 +1,26 @@
+let N1 = 10;
+let N2 = 205;
+let N3 = 1554;
+let N4 = -82;
+let N5 = -79;
+let Txt1 = "Tare";
+let Txt2 = "De";
+let Txt3 = "JavaScript";
+let Txt4 = "Avanzado";
+let Txt5 = ":D";
+let boolean1 = true;
+let boolean2 = false;
+let array1 = [10, 20, 30, 40, 50];
+let array2 = ["apple", "banana", "cherry", "date"];
+let array3 = [true, false, true, false];
+let object1 = { color: "Rojo", tamaño: "Grande" };
+let object2 = { ciudad: "Nueva York", país: "EE.UU." };
+let object3 = { animal: "Perro", raza: "Labrador" };
+let object4 = { película: "Inception", director: "Nolan" };
+let object5 = { libro: "1984", autor: "Orwell" };
+
+console.log(N1,N2,N3,N4,N5);
+console.log(Txt1,Txt2,Txt3,Txt4,Txt5);
+console.log(boolean1,boolean2);
+console.log(array1,array2,array3);
+console.log(object1,object2,object3,object4,object5);

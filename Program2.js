@@ -1,0 +1,26 @@
+let number1 = 20;
+let number2 = 325;
+let number3 = -84;
+let number4 = -972;
+let number5 = 7.439;
+let string1 = "Buenas";
+let string2 = "Taredes";
+let string3 = "Profesor";
+let string4 = "JAVA";
+let string5 = "SCRIPT";
+let boolean1 = true;
+let boolean2 = false;
+let array1 = [9, 2, 7, 2, 3];
+let array2 = ["a", "b", "c", "d"];
+let array3 = ["a", "e", "i"];
+let object1 = { nombre: "Leonardo", edad: 30 };
+let object2 = { marca: "geely", modelo: "Starray" };
+let object3 = { ciudad: "Madrid", país: "España" };
+let object4 = { autor: "Antoine", obra: "El Principito" };
+let object5 = { equipo: "Barcelona", posición: "Arquero" };
+
+console.log(number1,number2,number3,number4,number5);
+console.log(string1,string2,string3,string4,string5);
+console.log(boolean1,boolean2);
+console.log(array1,array2,array3);
+console.log(object1,object2,object3,object4,object5);
