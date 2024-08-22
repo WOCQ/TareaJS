@@ -1,0 +1,29 @@
+let num = 8;
+
+console.log(`Número inicial: ${num}`);
+console.log(`Binario: ${num.toString(2)}`);
+
+let leftShift = num << 1;
+console.log(`Desplazamiento a la izquierda (<< 1): ${leftShift}`);
+console.log(`Binario: ${leftShift.toString(2)}`);
+
+let rightShift = num >> 1;
+console.log(`Desplazamiento a la derecha (>> 1): ${rightShift}`);
+console.log(`Binario: ${rightShift.toString(2)}`);
+
+let unsignedRightShift = num >>> 1;
+console.log(`Desplazamiento a la derecha sin signo (>>> 1): ${unsignedRightShift}`);
+console.log(`Binario: ${unsignedRightShift.toString(2)}`);
+
+let negNum = -8;
+
+console.log(`\nNúmero negativo inicial: ${negNum}`);
+console.log(`Binario: ${negNum.toString(2)}`);
+
+let negRightShift = negNum >> 1;
+console.log(`Desplazamiento a la derecha de número negativo (>> 1): ${negRightShift}`);
+console.log(`Binario: ${negRightShift.toString(2)}`);
+
+let negUnsignedRightShift = negNum >>> 1;
+console.log(`Desplazamiento a la derecha sin signo de número negativo (>>> 1): ${negUnsignedRightShift}`);
+console.log(`Binario: ${negUnsignedRightShift.toString(2)}`);
