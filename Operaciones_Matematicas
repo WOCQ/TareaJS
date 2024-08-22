@@ -1,0 +1,14 @@
+let num1 = parseFloat(prompt("ingrese un numero"));
+let num2 = parseFloat(prompt("ingrese un segundo numero"));
+
+let suma = num1 + num2;
+let resta = num1 - num2;
+let multi = num1 * num2;
+let divi = num1 / num2;
+let resi = num1 % num2;
+
+console.log("suma: " +suma);
+console.log("resta: " + resta);
+console.log("multiplicación: " + multi);
+console.log("división :" + divi);
+condole.log("residuo :" + resi);
